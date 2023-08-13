@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+
+        h1{
+            margin: 0 auto;
+            margin-bottom: 20px ;
+            width: 500px;
+        }
+        .wholeForm{
+            /* margin: auto; */
+            margin: 0 auto;
+            width: 500px;
+        }
+
+
+        span{
+            font-size: 20px;
+        }
+        .span2{
+            padding-left:155px;
+        }
+        .span4{
+            padding-left:189px;
+        }
+        .span6{
+            padding-left:189px;
+        }
+        .textbox1{
+            padding-right: 50px;
+            margin-right: 10px;
+        }
+        .textbox2{
+            padding-right: 100px;
+        }
+        .cityTextBox{
+            padding-right: 50px;
+        }
+        .email{
+            padding-right: 50px;
+            margin-right: 10px;
+        }
+        .jobrole{
+            padding-right: 100px;
+        }
+        .Address{
+            padding-bottom: 20px;
+            padding-right: 335px;
+        }
+        .cityTextBox{
+            margin-right: 10px;
+        }
+        .span7{
+            margin-right: 185px;
+        }
+        .date{
+            padding-right: 105px;
+            margin-right: 10px;
+        }
+        #redButton{
+            margin-top: 20px;
+            margin-left: 400px;
+            padding: 5px 20px;
+            background-color: rgb(223, 86, 86);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Job Application
+        <span>(Web)</span>
+    </h1>
+    <div class="wholeForm">
+        <form action="PcsBackend.php">
+            <div>
+                <span1 class="span1">First Name</span1>
+                <span2 class="span2">Last Name</span2>
+                <br>
+                <input type="text" placeholder="Enter First Name..." class="textbox1">
+                <input type="text" placeholder="Enter Last Name..."
+                class="textbox2">
+            </div>
+            <br>
+            <div>
+                <span3 class="span3">Email</span3>
+                <span4 class="span4">Job Role</span4>
+                <br>
+                <input type="text"placeholder="Enter Email..." class="email">
+                <select name="JobRole" class="jobrole">
+                    <option value="">select job role</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                Address
+                <br>
+                <input type="text" placeholder="Enter Address..."
+                class="Address">
+            </div>
+            <br>
+            <div>
+                <span class="span5">City</span>
+                <span class="span6">Pincode</span>
+                <br>
+                <input type="Enter City Name..." placeholder="Enter City Name..." class="cityTextBox">
+                <input type="text" placeholder="enter pincode name..." class="pincodeTextbox">
+            </div>
+            <br>
+
+            <div>
+                <span class="span7">Date</span>
+                <span class="span8">Upload your cv</span>
+                <br>
+                <input type="date" class="date">
+                <input type="file" class="file">
+            </div>
+            <div>
+                <input type="button" value="Apply Now"  id="redButton">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
